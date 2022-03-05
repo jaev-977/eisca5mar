@@ -4,8 +4,8 @@ import unittest
 class TestSaludar(unittest.TestCase):
 
 	def test_success(self):
-		resultado = saludar("Daniel")
-		self.assertEqual(resultado, "Hola Daniel")
+		resultado = saludar("John")
+		self.assertEqual(resultado, "Hola John")
 
 	def test_two(self):
 		resultado = saludar("Juan")
