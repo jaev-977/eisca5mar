@@ -5,7 +5,7 @@ class TestSaludar(unittest.TestCase):
 
 	def test_success(self):
 		resultado = saludar("John")
-		self.assertEqual(resultado, "Hola John")
+		self.assertEqual(resultado, "Hola--John")
 
 	def test_two(self):
 		resultado = saludar("Juan")
